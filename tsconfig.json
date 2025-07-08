@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "jsx": "react-jsx",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "target": "es5",
+    "allowJs": true,
+    "paths": {
+      "@app/*": ["./src/*"]
+    },
+  },
+  "exclude": ["node_modules", "build"],
+  "include": ["**/*.ts", "**/*.tsx"],
+  "files": ["./src/index.tsx"],
+  "typeRoots": ["node_modules/@types", "src/@types"]
+}
